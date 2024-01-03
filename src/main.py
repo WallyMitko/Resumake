@@ -1,15 +1,14 @@
 import tkinter as tk
 import tkinter.ttk as ttk
+from src.new_entry_form import NewEntryForm
 
 
 class MainApplication(ttk.Frame):
     def __init__(self, parent, *args, **kwargs):
         ttk.Frame.__init__(self, parent, *args, **kwargs)
         self.parent = parent
-        # create gui
-        self.test_str = tk.StringVar()
-        self.test_entry = ttk.Entry(self, width=7, textvariable=self.test_str)
-        self.test_entry.grid(column=2, row=1, sticky="WE")
+        self.entry_form = NewEntryForm(self)
+        self.entry_form.grid(column=1, row=1, sticky="EW")
 
 
 if __name__ == "__main__":

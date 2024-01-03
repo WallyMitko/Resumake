@@ -1,9 +1,9 @@
 from dataclasses import dataclass
-from enum import StrEnum
+from enum import Enum
 from datetime import date
 
 
-class EntryCategory(StrEnum):
+class EntryCategory(Enum):
     WORK = "Work Experience"
     PROJECT = "Projects"
     VOLUNTEER = "Volunteer Experience"
