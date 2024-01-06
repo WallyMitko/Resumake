@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb41fef8-835e-4a8b-93db-4d838ea07020" name="Changes" comment="Redo last commit from correct account">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="eb41fef8-835e-4a8b-93db-4d838ea07020" name="Changes" comment="Add start date picker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/new_entry_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/new_entry_form.py" afterDir="false" />
     </list>
@@ -128,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704320387414</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add start date picker">
+      <option name="closed" value="true" />
+      <created>1704474334737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704474334737</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change file organization, add dropdown" />
     <MESSAGE value="Redo last commit from correct account" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redo last commit from correct account" />
+    <MESSAGE value="Add start date picker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add start date picker" />
   </component>
 </project>
