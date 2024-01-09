@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb41fef8-835e-4a8b-93db-4d838ea07020" name="Changes" comment="Add start date picker">
+    <list default="true" id="eb41fef8-835e-4a8b-93db-4d838ea07020" name="Changes" comment="Add end date picker">
+      <change afterPath="$PROJECT_DIR$/src/entry_info_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entry_points_form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/new_entry_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/new_entry_form.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,15 +55,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -135,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704474334737</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add end date picker">
+      <option name="closed" value="true" />
+      <created>1704560526887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704560526887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +164,15 @@
     <MESSAGE value="Change file organization, add dropdown" />
     <MESSAGE value="Redo last commit from correct account" />
     <MESSAGE value="Add start date picker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add start date picker" />
+    <MESSAGE value="Add end date picker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add end date picker" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.points" language="Python" />
+        <watch expression="self.point_forms" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
